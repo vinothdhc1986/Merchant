@@ -1,0 +1,30 @@
+.update-preferences-modal p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  color: #52575c;
+  margin-top: 0;
+}
+
+.update-preference-body {
+  text-align: left !important;
+  h4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #a0a4a8;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+  }
+  p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    letter-spacing: 0.5px;
+  }
+}

@@ -1,0 +1,22 @@
+.settlements {
+    .filtering-row {
+        justify-content: space-between;
+        align-items: center;
+        .filtering-column {
+            display: flex;
+            align-items: center;
+        }
+        
+    }
+}
+
+.gateway-filter {
+    .dropdown-item {
+        padding: 8px 16px;
+        display: block;
+        color: #52575c;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }    
+}

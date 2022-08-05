@@ -1,0 +1,726 @@
+@import "../../../../scss/vars.scss";
+.checkoutpage {
+  @font-face {
+    font-family: "Indivisible Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local("./fonts/Indivisible Regular"),
+      url("./fonts/Indivisible Regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Indivisible Regular Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("./fonts/Indivisible Regular Italic"),
+      url("./fonts/Indivisible Regular Italic.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Indivisible Thin";
+    font-style: normal;
+    font-weight: normal;
+    src: local("./fonts/Indivisible Thin"),
+      url("./fonts/Indivisible Thin.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Indivisible Thin Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("./fonts/Indivisible Thin Italic"),
+      url("./fonts/Indivisible Thin Italic.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Indivisible Light";
+    font-style: normal;
+    font-weight: normal;
+    src: local("./fonts/Indivisible Light"),
+      url("./fonts/Indivisible Light.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Indivisible Light Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("./fonts/Indivisible Light Italic"),
+      url("./fonts/Indivisible Light Italic.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Indivisible Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: local("./fonts/Indivisible Medium"),
+      url("./fonts/Indivisible Medium.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Indivisible Medium Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("./fonts/Indivisible Medium Italic"),
+      url("./fonts/Indivisible Medium Italic.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Indivisible SemiBold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("./fonts/Indivisible SemiBold"),
+      url("./fonts/Indivisible SemiBold.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Indivisible SemiBold Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("./fonts/Indivisible SemiBold Italic"),
+      url("./fonts/Indivisible SemiBold Italic.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Indivisible Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("./fonts/Indivisible Bold"),
+      url("./fonts/Indivisible Bold.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Indivisible Bold Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("./fonts/Indivisible Bold Italic"),
+      url("./fonts/Indivisible Bold Italic.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Indivisible Black";
+    font-style: normal;
+    font-weight: normal;
+    src: local("./fonts/Indivisible Black"),
+      url("./fonts/Indivisible Black.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Indivisible Black Italic";
+    font-style: normal;
+    font-weight: normal;
+    src: local("./fonts/Indivisible Black Italic"),
+      url("./fonts/Indivisible Black Italic.woff") format("woff");
+  }
+  /* Toggle button css */
+  /* .toggle:hover .toggle-switch:before {
+      background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+  } */
+  /* Footer Icon */
+  /* Bank loader css */
+  /* Custom radio button css */
+  /* Responsive css */
+  body {
+    font-family: "Indivisible Regular";
+  }
+  h1 {
+    font-family: "Indivisible Bold";
+    color: #212121;
+    line-height: normal;
+    font-weight: normal;
+  }
+  h2 {
+    font-family: "Indivisible Bold";
+    color: #212121;
+    line-height: normal;
+    font-weight: normal;
+  }
+  h3 {
+    font-family: "Indivisible Bold";
+    color: #212121;
+    line-height: normal;
+    font-weight: normal;
+  }
+  h4 {
+    font-family: "Indivisible Bold";
+    color: #212121;
+    line-height: normal;
+    font-weight: normal;
+  }
+  h5 {
+    font-family: "Indivisible Bold";
+    color: #212121;
+    line-height: normal;
+    font-weight: normal;
+  }
+  h6 {
+    font-family: "Indivisible Bold";
+    color: #212121;
+    line-height: normal;
+    font-weight: normal;
+  }
+  input {
+    font-family: "Indivisible Regular";
+  }
+  select {
+    font-family: "Indivisible Regular";
+  }
+  textarea {
+    font-family: "Indivisible Regular";
+  }
+  button {
+    font-family: "Indivisible Regular";
+    border: none;
+    cursor: pointer;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  a {
+    color: #00dfbe;
+    text-decoration: none;
+    transition: all ease 0.4s;
+    &:hover {
+      color: #00add8;
+      text-decoration: none;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+  strong {
+    font-weight: 700;
+  }
+  .mb-0 {
+    margin-bottom: 0 !important;
+  }
+  .mb-1 {
+    margin-bottom: 20px !important;
+  }
+  // &:focus {
+  // 	outline: none;
+  // }
+  .clr {
+    clear: both !important;
+    display: inline-block;
+    width: 100%;
+  }
+  .form-control {
+    &:-ms-input-placeholder {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 16px;
+      color: $text-primary;
+      opacity: 0.2;
+    }
+    &::placeholder {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 16px;
+      color: $text-primary;
+      opacity: 0.2;
+    }
+    &::-webkit-input-placeholder {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 16px;
+      color: $text-primary;
+      opacity: 0.2;
+    }
+    &:focus {
+      box-shadow: none;
+      border-color: #ebecef;
+    }
+    background: #ffffff;
+    border: 1px solid #ebecef;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: $text-primary;
+    padding: 12px 16px;
+    width: 100%;
+    font-family: "Indivisible Medium";
+  }
+  .modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 58%);
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .modal-dialog {
+    max-width: 320px;
+    position: relative;
+    width: auto;
+    margin: 0px auto 20px auto;
+  }
+  .modal-dialog-large {
+    max-width: 670px;
+    margin: 20px auto;
+    position: relative;
+    width: auto;
+  }
+  .modal-dialog-biglarge {
+    max-width: 910px;
+    margin: 20px auto;
+    position: relative;
+    width: auto;
+  }
+  .modal-dialog-centered {
+    min-height: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: static;
+  }
+  .checkout-modal-content {
+    border: none;
+    width: 100%;
+    position: relative;
+  }
+  .modalMiddle {
+    background: $background-primary-light;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .modal-body {
+    padding: 20px;
+  }
+  .btn-close {
+    // background: url('images/close-icon.svg') 0 0 no-repeat;
+    background: none;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    opacity: 1;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+  }
+  .top-gradiant {
+    background: linear-gradient(
+      90.01deg,
+      #327be6 0%,
+      #4ff0c7 83.21%,
+      #94eb89 100%
+    );
+    height: 8px;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: -3px;
+  }
+  .modal-header-section {
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+  }
+  .logo {
+    margin-right: 16px;
+  }
+  .header-order-total {
+    width: 120px;
+    margin-right: 10px;
+    flex: 2;
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      color: $text-primary;
+      margin-bottom: 11px;
+      margin-top: 0;
+    }
+    label {
+      font-style: normal;
+      font-family: "Indivisible SemiBold";
+      font-size: 9px;
+      line-height: 11px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: $text-primary;
+      display: block;
+      opacity: 0.5;
+      margin-bottom: 2px;
+    }
+    span {
+      font-style: normal;
+      font-family: "Indivisible SemiBold";
+      font-size: 20px;
+      line-height: 24px;
+      color: #01d684;
+    }
+  }
+  .user-name {
+    width: 90px;
+    display: flex;
+    align-items: center;
+    span {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      color: $text-primary;
+      white-space: nowrap;
+      margin-left: 4px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .form-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: $text-primary;
+    font-family: "Indivisible Medium";
+    margin-bottom: 16px;
+    margin-top: 0;
+  }
+  .form-group {
+    margin-bottom: 20px;
+    position: relative;
+    label {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 12px;
+      color: $text-primary;
+      opacity: 0.5;
+      margin-bottom: 7px;
+      display: block;
+    }
+  }
+  .modal-footer {
+    background: $background-payment-modal;
+    padding: 20px;
+    border: none;
+  }
+  .btn-primary {
+    margin: 0;
+    width: 100%;
+    border-radius: 6px;
+    height: 50px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    font-family: "Indivisible Medium";
+    background: $sky-blue-color;
+    box-shadow: 0px 5px 10px rgb(21 77 153 / 30%);
+    cursor: pointer;
+    img {
+      margin-left: 12px;
+    }
+    &:disabled {
+      color: #fff;
+      background-color: #b9b9b9;
+      border-color: #b9b9b9;
+      box-shadow: none;
+      cursor: default;
+    }
+    a {
+      color: #fff;
+      display: block;
+      padding: 16px 0;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+  .btn-primary.disabled {
+    color: #fff;
+    background-color: #b9b9b9;
+    border-color: #b9b9b9;
+    box-shadow: none;
+    cursor: default;
+  }
+  .form_error {
+    border-color: #eb001b;
+  }
+  .form-control.form_error {
+    &:focus {
+      border-color: #eb001b;
+    }
+  }
+  .toggle {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .toggle-switch {
+    display: inline-block;
+    background: rgb(185 185 185 / 40%);
+    border-radius: 10px;
+    width: 24px;
+    height: 8px;
+    position: relative;
+    vertical-align: middle;
+    transition: background 0.25s;
+    &:before {
+      content: "";
+      display: block;
+      background: #b9b9b9;
+      border-radius: 50%;
+      box-shadow: none;
+      width: 14px;
+      height: 14px;
+      position: absolute;
+      top: -3px;
+      left: 0;
+      transition: left 0.25s;
+    }
+    &:after {
+      content: "";
+    }
+  }
+  .toggle-checkbox {
+    &:checked {
+      + {
+        .toggle-switch {
+          background: #93ec8b;
+          &:before {
+            background: #3483e4;
+            box-shadow: 0px 3px 4px #c8dad1;
+            left: 12px;
+          }
+        }
+      }
+    }
+    position: absolute;
+    visibility: hidden;
+  }
+  .toggle-label {
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+  }
+  #container1 {
+    height: 200px;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+  #container2 {
+    height: 200px;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+  }
+  .mCSB_draggerRail {
+    width: 20px;
+  }
+  .footer_icon {
+    width: 92%;
+    background: #090909;
+    border-radius: 0 0 10px 10px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .rightLogo {
+      display: flex;
+      justify-content: flex-end;
+      width: 80%;
+      img {
+        margin-left: 6%;
+      }
+    }
+  }
+  .error {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: left;
+    color: #eb001b;
+  }
+  .bankloadingSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 355px;
+    h6 {
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: $text-primary;
+      margin-top: 16px;
+      margin-bottom: 5px;
+      font-family: "Indivisible Medium";
+      font-weight: normal;
+    }
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 11px;
+      line-height: 13px;
+      text-align: center;
+      color: $text-primary;
+      opacity: 0.6;
+      margin: 0;
+    }
+  }
+  .goPayment {
+    background: #f4f6f8;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 17px;
+    color: $text-primary;
+    padding: 16px;
+    font-family: "Indivisible Medium";
+    margin-top: 20px;
+  }
+  .paymentSuccess {
+    height: 300px;
+    h6 {
+      margin-top: 5px;
+      font-size: 18px;
+      line-height: 21px;
+    }
+    p {
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 16px;
+      color: #b0b6b3;
+      opacity: 1;
+      strong {
+        color: #01d684;
+        font-family: "Indivisible Bold";
+      }
+    }
+  }
+  .automatic-close {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: $text-primary;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+  }
+  [type="radio"] {
+    &:checked {
+      position: absolute;
+      left: -9999px;
+      + {
+        label {
+          position: relative;
+          padding-left: 28px;
+          cursor: pointer;
+          line-height: 24px;
+          display: inline-block;
+          color: #666;
+          &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #ebecef;
+            border-radius: 100%;
+            background: #fff;
+            border-color: #3483e4;
+          }
+          &:after {
+            content: "";
+            width: 10px;
+            height: 10px;
+            background: #3483e4;
+            position: absolute;
+            top: 7px;
+            left: 7px;
+            border-radius: 100%;
+            -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+            opacity: 1;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+          }
+        }
+      }
+    }
+    &:not(:checked) {
+      position: absolute;
+      left: -9999px;
+      + {
+        label {
+          position: relative;
+          padding-left: 28px;
+          cursor: pointer;
+          line-height: 24px;
+          display: inline-block;
+          color: #666;
+          &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #ebecef;
+            border-radius: 100%;
+            background: #fff;
+          }
+          &:after {
+            content: "";
+            width: 10px;
+            height: 10px;
+            background: #3483e4;
+            position: absolute;
+            top: 7px;
+            left: 7px;
+            border-radius: 100%;
+            -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+            opacity: 0;
+            -webkit-transform: scale(0);
+            transform: scale(0);
+          }
+        }
+      }
+    }
+  }
+  .innerSection {
+    .btn-close {
+      display: none;
+    }
+  }
+  @media (max-width: 767px) {
+    .modal-dialog {
+      max-width: 300px;
+    }
+    .checkout-modal-content {
+      min-height: calc(100vh - 40px);
+      background-color: #fff;
+    }
+    .modal-dialog-large {
+      margin: 0;
+    }
+    .header-order-total {
+      width: 140px;
+    }
+    .bankloadingSection {
+      height: 301px;
+    }
+    .innerSection {
+      .btn-close {
+        display: block;
+      }
+    }
+  }
+  .logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 6px;
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+  }
+}

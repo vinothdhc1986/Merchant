@@ -1,0 +1,33 @@
+.create-payment-link-modal-body {
+    padding: 16px;
+    padding-top: 0px;
+    .margin-bottom-unset {
+        margin-bottom: unset;
+    }
+    .margin-top-15 {
+        margin-top: 15px;
+    }
+    .filter-dropdown {
+        width: 100%;
+        margin: unset;
+        .ant-select-selector {
+            height: 48px !important;
+            border: 1px solid #a0a4a8 !important
+        }
+    }
+    .create-payment-submit {
+        margin-left: unset;
+    }
+    .d-flex {
+        gap: 10px;
+        font-weight: 600;
+    }
+    .calnderInput {
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+}

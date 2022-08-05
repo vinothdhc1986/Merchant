@@ -1,0 +1,70 @@
+.user-management {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  .result-count {
+    font-weight: 500;
+    align-items: center;
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #25282b;
+  }
+
+  .result-count .secondry-button {
+    padding: 5px 20px;
+  }
+
+  .result-count a img {
+    vertical-align: middle;
+  }
+
+  .status,.status-1 {
+    width: 75px;
+    height: 28px;
+    top: 22px;
+    background: rgba(42, 199, 105, 0.1);
+    color: #2AC769;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    position: static;
+    font-size: 12px;
+    padding: 5px 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .status-0, .status-3 {
+    color: #fb4e4e;
+    width: fit-content;
+    background: rgba(251, 78, 78, 0.1);
+  }
+
+  .status-2 {
+    color: #2AC769;
+    width: fit-content;
+    background: rgba(42, 199, 105, 0.1);
+
+  } 
+  
+  .status-4, .status-7 {
+    color: #f6a609;
+    width: fit-content;
+    background: rgba(246, 166, 9, 0.1);
+  }
+}
+.overflow-ellipse{
+  overflow-wrap: break-word;
+  white-space:unset;
+  text-overflow : unset;
+}
+.create-role-modal .permission-wrapper .permissions .custom-switch {
+  align-items: flex-start;
+  .custom-switch-label {
+  width: 170px;
+}}

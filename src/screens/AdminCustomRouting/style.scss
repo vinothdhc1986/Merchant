@@ -1,0 +1,26 @@
+.admin-custom-routing-container {
+  .status {
+    letter-spacing: 0.2px;
+    font-weight: 400;
+  }
+  .pending {
+    background: rgba(246, 166, 9, 0.1);
+    color: #f6a609;
+  }
+  .rejected {
+    background: rgba(251, 78, 78, 0.1);
+    color: #fb4e4e;
+  }
+  .approved {
+    background: rgba(42, 199, 105, 0.1);
+    color: #2ac769;
+  }
+  .action-bt .dropdown-toggle {
+    background: none;
+  }
+  .sub-header {
+    .heading-title {
+      margin-left: 0px;
+    }
+  }
+}

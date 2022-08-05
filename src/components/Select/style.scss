@@ -1,0 +1,29 @@
+.filter-dropdown {
+  width: 160px;
+  margin-right: 10px;
+  margin-bottom: 42px;
+  /**************** AntD CSS Overrides ********************/
+  .ant-select-arrow {
+    top: 49%;
+  }
+  .ant-select {
+    width: 100%;
+  }
+  .ant-select-selector {
+    background: #ffffff;
+    border: 1px solid #dbdde0 !important;
+    box-sizing: border-box;
+    border-radius: 8px !important;
+    text-align: left;
+    padding: 8px 15px !important;
+    transition: all 0.2s ease-in !important;
+    height: 42px !important;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #52575c;
+  }
+}

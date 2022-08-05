@@ -1,0 +1,36 @@
+.subscription-filter {
+  .filter-row {
+    margin-bottom: 0;
+    align-items: flex-start;
+    margin-bottom: 36px;
+    align-items: center;
+
+    label {
+      font-weight: 400;
+      width: 210px;
+    }
+
+    ul.order-status {
+      width: 342px;
+      margin-top: 0;
+    }
+  }
+  .amoun-unit {
+    margin-bottom: 30px !important;
+
+    ul {
+      li {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    label {
+      margin-top: 12px;
+
+      em {
+        font-style: normal;
+        color: #f00;
+      }
+    }
+  }
+}

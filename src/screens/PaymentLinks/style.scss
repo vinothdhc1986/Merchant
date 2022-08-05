@@ -1,0 +1,46 @@
+%copy-button-design {
+  cursor: pointer;
+  padding: 2px 9px;
+  background: #4da5ff;
+  border-radius: 100px;
+  color: white;
+  font-size: 12px;
+  font-family: unset;
+  font-weight: 500;
+  max-height: 20px;
+  line-height: 18px;
+}
+
+.payment-links-container {
+  .arrow-bt {
+    margin-left: 0 !important;
+    padding-right: 0;
+    img {
+      margin-right: 0 !important;
+    }
+  }
+  .primary-button {
+    width: 240px;
+  }
+}
+
+.listing-payment-url-wrapper {
+  display: flex;
+  .copy-button {
+    display: none;
+    @extend %copy-button-design;
+    position: absolute;
+    right: 0px;
+  }
+}
+
+.listing-payment-url-wrapper:hover {
+  .url {
+    max-width: calc(100% - 35px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .copy-button {
+    display: flex;
+  }
+}

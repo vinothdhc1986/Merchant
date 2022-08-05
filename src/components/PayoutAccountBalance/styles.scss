@@ -1,0 +1,55 @@
+%filter-row-label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  background: none;
+  margin-right: 5px;
+}
+
+.payout-account-balance {
+  display: flex;
+  margin-left: 18px;
+  > label {
+    @extend %filter-row-label;
+    color: #2e7be6;
+    > img {
+      margin: 0 6px;
+    }
+
+    .account-details-tooltip {
+      padding: 0 5px;
+      .custom-modal-row {
+        justify-content: space-between;
+        .custom-label {
+          width: unset;
+        }
+        .custom-value {
+          margin-left: 5px;
+          width: unset;
+        }
+      }
+    }
+  }
+  > div {
+    display: flex;
+    min-height: 24px;
+    > span {
+      @extend %filter-row-label;
+      margin-top: unset !important;
+      color: #000;
+    }
+    > button {
+      border: none;
+      background: none !important;
+      margin: unset !important;
+      padding: unset !important;
+    }
+    > img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

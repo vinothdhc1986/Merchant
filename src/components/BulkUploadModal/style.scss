@@ -1,0 +1,23 @@
+.bulk-upload {
+  width: 344px;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.file-upload-error {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #fb4e4e;
+  margin: 16px 0;
+  padding: 0 34px;
+  position: absolute;
+}
+
+.curser-pointer {
+  cursor: pointer;
+}

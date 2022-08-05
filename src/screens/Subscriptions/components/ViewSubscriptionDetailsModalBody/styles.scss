@@ -1,0 +1,44 @@
+.view-subscription-detail-modal {
+    h3 {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.10000000149011612px;
+        text-align: left;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        tbody tr{ 
+            .subscription-link {
+            display: flex;
+            flex-direction: column;
+            }
+            td {
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            color: #25282B;
+            padding-right: 15px;
+            padding-bottom: 24px;
+            vertical-align: top;
+                :first-child {
+                color: #A0A4A8;
+                width: 220px;
+                }   
+            }
+        }
+    }
+    .copy-button {
+        background: #4DA5FF;
+        border: 1px solid #FFFFFF;
+        border-radius: 100px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF !important;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        width: 50px !important;
+    }
+}

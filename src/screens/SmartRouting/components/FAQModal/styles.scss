@@ -1,0 +1,49 @@
+.smart-routing-faq-modal {
+    font-family: 'Indivisible Regular';
+    .button-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 24px;
+        button {
+            width: auto;
+            padding: 15px 24px;
+        }
+    }
+    .faq-content {
+        display: flex;
+        flex-direction: column;
+        .margin-top-24 {
+            margin-top: 24px;
+        }
+        h3 {
+            font-size: 20px;
+            line-height: 26px;
+            color: #25282B;
+            margin-top: 24px;
+        }
+        p {
+            color: #52575C;
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: unset;
+            span {
+                font-weight: 600;
+            }
+        }
+        h5 {
+            color: #A0A4A8;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}
+
+.smart-routing-faq-modal-wrapper {
+    .modal-dialog {
+        width: 768px;
+        .modal-content {
+            padding-top: unset;
+        }
+    }
+}

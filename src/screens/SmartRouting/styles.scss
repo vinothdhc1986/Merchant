@@ -1,0 +1,252 @@
+@import '../../scss/vars.scss';
+
+%dropdown-design {
+    width: 14.813rem;
+    margin: unset;
+    .ant-select-selector {
+        height: 3rem !important;
+        border: 0.063rem solid #a0a4a8 !important;
+    }
+}
+
+.smart-routing {
+    .create-gateway-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .available-gateways-header {
+        display: flex;
+        justify-content: space-between;
+        vertical-align: middle;
+    }
+
+    .available-gateways-header button {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.1px;
+        color: #2e7be6;
+        margin-left: 18px;
+        background: none;
+      }
+
+    .tab-content-header {
+        font-weight: 500;
+        align-items: center;
+        margin-bottom: 26px;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 32px;
+        letter-spacing: 0.2px;
+        color: #25282B;
+    }
+    
+    .tab-content-header .secondry-button {
+        padding: 5px 20px;
+    }
+    
+    .tab-content-header a img {
+        vertical-align: middle;
+    }
+
+
+    .margin-top-24 {
+        margin-top: 24px;
+    }
+    .white-box-content {
+        background: #FFFFFF;
+        border-radius: 4px;
+        border: 1px solid #E8E8E8;
+        padding: 25px;
+        margin-bottom: 20px;
+    }
+    .white-box-content h5 {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.2px;
+        color: #000000;
+        margin-top: 0;
+        margin-bottom: 4px;
+    }
+    
+    .white-box-content p.subtitle {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.1px;
+        color: #52575C;
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+    .available-gateways p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #52575C;
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+    .action-button .primary-button {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .action-button .secondry-button {
+        margin-right: 24px;
+    }
+    .enable-custom-routing-switch {
+        margin: 10px 0px;
+    }
+    .gateway-status-change-modal h6 {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.1px;
+        color: #52575C;
+        font-weight: 400;
+        margin-bottom: 12px;
+    }
+
+    .gateway-status-change-modal .label-class {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.1px;
+        color: #25282B;
+    }
+
+    .manage-priority-modal {
+        p {
+            margin-bottom: 45px;
+        }
+        .filter-row {
+            display: flex;
+            align-items: baseline;
+            margin-bottom: 45px;
+            label {
+                width: 220px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 16px;
+                letter-spacing: 0.1px;
+                color: #A0A4A8;
+            }  
+            .gateway-list-dropdown {
+                @extend %dropdown-design;
+            }
+            .form-group {
+                margin-bottom: unset;
+            }
+        }
+    }
+    .faq-link-wrapper {
+      display: flex;
+      align-items: center;
+      padding-right: 15px;
+      span {
+        font-size: 14px;
+        line-height: 18px;
+        cursor: pointer;
+        color: $primary-theme-color;
+        font-weight: 600;
+      }
+    }
+}
+.smart-routing-gateway {
+    .devide {
+        width: 100%;
+        border-bottom: #DBDDE0 solid 1px;
+        margin-bottom: 30px;
+    }
+    .setting-button {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        .setting-colunm {
+            width: 50%;
+            h6 {
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+                color: #52575C;
+                margin-bottom: 24px;
+                margin-top: 10px;
+            }
+            h4 {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+                color: #000000;
+                margin-bottom: 18px;
+                margin-top: 22px;
+            }
+            .custom-switch {
+                margin-bottom: 12px;
+                .custom-switch-label {
+                    font-style: normal;
+                    line-height: 18px;
+                    display: inline-block;
+                    width: 180px;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+.smart-routing-create-gateway {
+    .form-group {
+        // margin-bottom: unset;
+        .gateway-list-dropdown {
+            @extend %dropdown-design;
+            width: 15.9rem;
+        }
+        .filter-dropdown {
+            margin-bottom: unset;
+        }
+    }
+    .setting-colunm {
+        width: 50%;
+        h6 {
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: #52575C;
+            margin-bottom: 24px;
+            margin-top: 10px;
+        }
+        h4 {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: #000000;
+            margin-bottom: 18px;
+            margin-top: 22px;
+        }
+        .custom-switch {
+            margin-bottom: 12px;
+            .custom-switch-label {
+                font-style: normal;
+                line-height: 18px;
+                display: inline-block;
+                width: 180px;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+    }
+}

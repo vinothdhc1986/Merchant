@@ -1,0 +1,29 @@
+.admin-custom-route-popup {
+  .modal-body {
+    padding-top: 20px;
+  }
+
+  textarea.form-control {
+    background: #f9f9fa;
+    border: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 300px;
+    overflow: auto;
+    resize: none;
+  }
+
+  .f-right {
+    float: right !important;
+  }
+
+  .priority-logic-editor {
+    background: #666;
+    min-height: 250px;
+    max-height: 400px;
+  }
+
+  .visibility-hidden {
+    visibility: hidden;
+  }
+}

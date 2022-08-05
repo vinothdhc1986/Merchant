@@ -1,0 +1,15 @@
+.warningMessage {
+  display: flex;
+  background: #feefbe;
+  border-radius: 0.4rem;
+  margin-bottom: 1rem;
+
+  img {
+    padding: 0 0.5rem;
+  }
+
+  .warning-text {
+    padding: 0.5rem 1.5rem 0.5rem .5rem;
+    text-align: justify;
+  }
+}

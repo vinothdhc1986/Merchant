@@ -1,0 +1,118 @@
+.refund-model {
+  .primary-button {
+    margin-left: 24px;
+    margin-left: 24px;
+  }
+  p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+    color: #52575c;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+}
+.refund-warning {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.2px;
+  color: #e89806;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  img {
+    margin-right: 10px;
+  }
+}
+.refund-table {
+  width: 100%;
+  border-collapse: collapse;
+  tr {
+    td {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+      color: #25282b;
+      padding-right: 15px;
+      padding-bottom: 24px;
+      vertical-align: top;
+      &:first-child {
+        color: #a0a4a8;
+        width: 220px;
+      }
+      .form-control {
+        width: 184px;
+      }
+    }
+  }
+}
+.refund-sucess-model {
+  position: fixed;
+  width: 260px;
+  height: auto;
+  background: #d1f1de;
+  border: 1px solid #2ac769;
+  border-radius: 8px;
+  right: 15px;
+  top: 110px;
+  z-index: 9;
+  padding: 13px 16px;
+  h5 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #1ab759;
+    margin-top: 0;
+    margin-bottom: 9px;
+    img {
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+  }
+  p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+    color: #52575c;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .close-model {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: none;
+    padding: 0;
+    right: 16px;
+    top: 12px;
+  }
+}
+.refund-error {
+  background: #ffe0e0;
+  border-color: #fb4e4e;
+  h5 {
+    color: #e93c3c;
+  }
+}
+.error-field {
+  .form-control {
+    border-color: #fb4e4e;
+  }
+  label {
+    color: #fb4e4e;
+  }
+}
+.error {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #fb4e4e;
+}
+.refund-amount {
+  margin-top: -8px !important;
+}

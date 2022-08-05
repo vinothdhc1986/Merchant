@@ -1,0 +1,41 @@
+.swiper-wrapper {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 40px;
+  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h3 {
+      font-size: 24px;
+      line-height: 29px;
+      color: #282c44;
+      margin-top: 0;
+      margin-bottom: 9px;
+      text-align: center;
+    }
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      color: #282c44;
+      opacity: 0.8;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: center;
+    }
+  }
+}
+.swiper-pagination {
+  text-align: left;
+}
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #337de6;
+}
+.swiper-pagination-bullet-active {
+  background: #337de6;
+}

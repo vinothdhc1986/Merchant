@@ -1,0 +1,19 @@
+.custom-radio-button {
+  .ant-radio-inner {
+    width: 20px;
+    height: 20px;
+  }
+  .ant-radio-checked .ant-radio-inner {
+    border-color: #2e7be6;
+  }
+  .ant-radio-checked::after {
+    border: 1px solid #2e7be6;
+  }
+  .ant-radio-inner::after {
+    top: 4px;
+    left: 4px;
+    width: 10px;
+    height: 10px;
+    background-color: #2e7be6;
+  }
+}

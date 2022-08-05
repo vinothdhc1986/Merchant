@@ -1,0 +1,210 @@
+%pending-summary-content {
+  > p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    flex-grow: 1;
+  }
+  > div {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    > a {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 0.10000000149011612px;
+      text-align: left;
+      color: #2e7be6;
+      text-decoration: none;
+    }
+  }
+}
+
+.payouts-container {
+  .sub-header {
+    .subHeader-buttons {
+      .secondry-button {
+        padding: 5px 20px;
+        background: none;
+      }
+    }
+  }
+  .recharts-layer.recharts-brush-traveller {
+    display: none;
+  }
+  .payout-overview-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+    .row {
+      display: flex;
+      flex-grow: 1;
+      flex-wrap: nowrap;
+      gap: 18px;
+    }
+    .overview-card {
+      background: #fff;
+      box-shadow: 0px 6px 18px 0px #0000000f;
+      border-radius: 4px;
+      padding: 18px 12px 20px 12px;
+      display: flex;
+      flex-direction: column;
+      > h3 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 14px;
+        letter-spacing: 0.2px;
+        color: #52575c;
+        margin-bottom: 16px;
+      }
+    }
+    .payouts-card {
+      flex: 0.25;
+      @extend %pending-summary-content;
+    }
+    .beneficiaries-card {
+      flex: 0.25;
+      @extend %pending-summary-content;
+    }
+
+    .cashflow-card {
+      flex: 0.5;
+      .cashflow-wrapper {
+        display: flex;
+        margin-top: 40px;
+        > div {
+          flex: 0.3 0.3 30%;
+          display: flex;
+          flex-direction: column;
+          > img {
+            width: 20px;
+            height: 20px;
+            margin-bottom: 13px;
+          }
+          > span {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.20000000298023224px;
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    .payout-transaction-card {
+      flex: 0.7;
+      padding-right: 30px;
+      > button {
+        border: none;
+        background: none;
+        width: fit-content;
+        padding: unset;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: 0.10000000149011612px;
+        text-align: left;
+        color: #2e7be6;
+        text-decoration: none;
+      }
+    }
+
+    .payout-statuses-card {
+      flex: 0.3;
+      > h3 {
+        margin-bottom: 9px;
+      }
+      .status-details {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 24px;
+        padding: 0px 16px;
+        > div {
+          flex: 0.5 0.5 50%;
+          display: flex;
+          max-width: 50%;
+          > div:first-child {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 8px;
+            > span {
+              width: 12px;
+              height: 12px;
+              border-radius: 50%;
+            }
+          }
+          > div:last-child {
+            display: flex;
+            flex-direction: column;
+            > :first-child {
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 16px;
+              letter-spacing: 0.20000000298023224px;
+              text-align: left;
+              color: #a0a4a8;
+            }
+            > :last-child {
+              display: flex;
+              align-items: center;
+              > :first-child {
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.10000000149011612px;
+                margin-right: 8px;
+                color: #25282b;
+              }
+              > :last-child {
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0.10000000149011612px;
+                color: #52575c;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .filter-dropdown {
+    width: fit-content;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: unset;
+    .ant-select-selector {
+      border: none !important;
+      padding: 0px 8px 0px 0px !important;
+      height: 32px !important;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 0.10000000149011612px;
+      text-align: left;
+      color: #2e7be6;
+      text-decoration: none;
+    }
+    .ant-select-arrow {
+      top: 42%;
+    }
+  }
+}

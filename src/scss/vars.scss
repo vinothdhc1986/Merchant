@@ -1,0 +1,57 @@
+// Theme
+$primary-theme-color: #2e7be6;
+
+// Button
+$primary-button-color: $primary-theme-color;
+$secondry-button-color: $primary-theme-color;
+
+// Tabs
+$primary-tab-color: $primary-theme-color;
+
+:root{
+    --primary-less-opacity-text: rgb(36 52 43 / 50%);
+    --primary-details-popup: #FEFEE7;
+    --primary-select-background: #ffffff;
+    --primary-light-span-color: #3483E4;  
+    --primary-light-icon-color: #3483E4;  
+    --primary-light-text-color: #24342B;
+    --primary-light-background-color: #F3FFFD;
+    --primary-dark-background-color: #272727;
+    --primary-input-light-background-color: #FFFFFF;
+    --primary-input-dark-background-color: #000000;
+    --primary-dark-icon-color: #3483E4;
+    --primary-dark-text-color: #FFFFFF;
+    --primary-border-color: #EBECEF;
+    --primary-payment-background-color: #FFFFFF;
+    --primary-payment-options-background: #FBFBFB;
+    --primary-payment-options-text-color: #4f5c55;
+    --secondary-dark-background-color: #1E1E1E;
+    --primary-contrast-color-1: #337FE6;
+    --secondary-contrast-color-2: #01d684;
+    --error-text: #EB001B;
+    --resend-button-background: #e6effc;
+    --primary-font-type: Indivisible-Regular;
+    --primary-light-points-card-gradient: linear-gradient(180deg, #ecf4ff 0%, #ffffff 100%);
+    }
+  $text-less-opacity: var(--primary-less-opacity-text);
+  $background-details-popup: var(--primary-details-popup);
+  $background-points-card-gradient: var(--primary-light-points-card-gradient);
+  $background-payment-modal: var(--primary-payment-background-color);
+  $text-options-color: var(--primary-payment-options-text-color);
+  $background-payment-options: var(--primary-payment-options-background);
+  $resend-button-background: var(--resend-button-background);
+  $active-button-text: var(--primary-light-text-color);
+  $background-select: var(--primary-select-background);
+  $background-primary-light: var(--primary-light-background-color);
+  $background-primary-dark: var(--primary-dark-background-color);
+  $background-input-light: var(--primary-input-light-background-color);
+  $background-input-dark: var(--primary-input-dark-background-color);
+  $sky-blue-color: var(--primary-contrast-color-1);
+  $text-primary: var(--primary-light-text-color);
+  $text-secondary: var(--primary-dark-text-color);
+  $background-secondary: var(--secondary-dark-background-color);
+  $amount-primary: var(--contrast-color-2);
+  $primary-font-type: var(--primary-font-type);
+  $primary-light-span-color: var(--primary-light-span-color);
+  $primary-light-icon-color: var(--primary-light-icon-color);
+  $border-color: var(--primary-border-color);

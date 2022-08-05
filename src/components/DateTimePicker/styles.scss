@@ -1,0 +1,23 @@
+.plural-custom-time-picker {
+  .time-picker-header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    .selected-date {
+      cursor: pointer;
+      color: #2e7be6;
+      font-weight: 600;
+    }
+  }
+  .time-picker-body {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px;
+    padding-top: 0px;
+    .filter-dropdown {
+      width: unset;
+      margin: 0px;
+    }
+  }
+}

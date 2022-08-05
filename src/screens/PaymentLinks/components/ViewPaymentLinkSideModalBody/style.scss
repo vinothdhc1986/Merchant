@@ -1,0 +1,17 @@
+@import "../../style.scss";
+
+.view-payment-link {
+  .view-payment-link-status {
+    margin: unset;
+  }
+  .payment-link-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    .payment-link-copy-wrapper {
+      .payment-link-copy {
+        @extend %copy-button-design;
+      }
+    }
+  }
+}

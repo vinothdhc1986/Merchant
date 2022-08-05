@@ -1,0 +1,116 @@
+.subscriptions {
+  .screen-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .filter-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    .filter-block {
+      background: #ffffff;
+      box-shadow: 0px 8px 20px rgb(37 40 43 / 8%);
+      border-radius: 8px;
+      width: 24%;
+      padding: 12px 16px;
+      display: flex;
+      border: transparent solid 1px;
+      .icon {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        background: #d1f1de;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        margin-right: 12px;
+      }
+      .sub-detail {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #52575c;
+        flex: 2;
+        h5 {
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 26px;
+          letter-spacing: 0.2px;
+          color: #000000;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+      }
+    }
+    .filter-block.live.active {
+      background: #d1f1de;
+      border-color: #2ac769;
+      background: #d1f1de;
+      border-color: #2ac769;
+    }
+    .filter-block.active {
+      .icon {
+        background: #fff !important;
+      }
+    }
+    .filter-block.paushed {
+      .icon {
+        background: #faeacd;
+      }
+    }
+    .filter-block.paushed.active {
+      background: #faeacd;
+      border-color: #f6a609;
+    }
+    .filter-block.expire.active {
+      background: #e5f2ff;
+      border-color: #4da5ff;
+    }
+    .filter-block.credit {
+      .icon {
+        background: #ffe0e0;
+      }
+    }
+    .filter-block.credit.active {
+      background: #ffe0e0;
+      border-color: #fb4e4e;
+    }
+  }
+  .plan-search-field input[type='text'] {
+    width: 100%;
+    font-weight: 400;
+    color: #757575;
+    padding: 10px 15px;
+    padding-right: 40px;
+    background: #ffffff;
+    border: 1px solid #dbdde0;
+    border-radius: 8px;
+    height: 40px;
+  }
+
+  .plan-search-field button {
+    border: 0;
+    background: none;
+    padding: 2px 5px;
+    margin-top: 5px;
+    position: absolute;
+    right: 6px;
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #757575;
+    cursor: pointer;
+    z-index: 9;
+    top: 3px;
+    font-size: 18px;
+  }
+
+  .plan-search-field button img {
+    width: 20px;
+    margin-right: 0;
+  }
+}

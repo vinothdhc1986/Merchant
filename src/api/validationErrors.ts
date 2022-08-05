@@ -1,0 +1,10 @@
+import apiEndpoints from '../lib/apiEndpoints';
+import apiCall from './apiCall';
+
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+export const validationErrorsApi = () => {
+  return apiCall({
+    method: 'get',
+    endpoint: apiEndpoints.VALIDATION_ERRORS,
+  });
+};

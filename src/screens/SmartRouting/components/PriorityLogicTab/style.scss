@@ -1,0 +1,46 @@
+.custom-routing-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+  button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #2e7be6;
+    margin-left: 18px;
+    background: none;
+  }
+  button:first-child {
+    margin-left: 0px;
+  }
+}
+
+.align-center {
+  text-align: center;
+}
+
+.enum-data-modal {
+  pre {
+    text-align: left;
+    color: #a31515;
+    height: 300px;
+  }
+  p {
+    text-align: right;
+    color: #2e7be6;
+    font-weight: 600;
+  }
+}
+
+.custom-routing-logic-status-table {
+  .action-bt {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .status {
+    margin: unset;
+  }
+}

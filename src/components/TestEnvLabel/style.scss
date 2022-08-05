@@ -1,0 +1,53 @@
+.test_env-label-container {
+  display: flex;
+  gap: 21px;
+  background: linear-gradient(90.01deg, #ffebcb 0.02%, #f7f8fb 95.82%);
+  min-height: 100%;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 20px;
+  max-width: 50%;
+
+  .test_env-icon-wrapper {
+    min-width: 54px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ec8d00;
+    border-radius: 8px;
+  }
+
+  .test_env-text-wrapper {
+    padding-top: 12px;
+
+    h3 {
+      font-family: 'Indivisible Regular';
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      color: #282c44;
+    }
+
+    p {
+      font-family: 'Indivisible Regular';
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      color: #282c44;
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .test_env-label-container {
+    .test_env-text-wrapper {
+      h3 {
+        font-size: 14px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}

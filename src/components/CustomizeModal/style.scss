@@ -1,0 +1,52 @@
+.customize-model {
+  p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+    color: #52575c;
+    margin-top: 0;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+
+    li {
+      width: 33.33%;
+      padding-right: 10px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.1px;
+      color: #25282b;
+      margin-bottom: 26px;
+
+      .check-box {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        color: #25282b;
+      }
+
+      .check-box-icon {
+        margin-right: 10px;
+      }
+    }
+    li.dissable {
+      opacity: 0.4;
+      pointer-events: none;
+      background: none;
+    }
+  }
+  .primary-button {
+    min-width: 92px;
+    width: auto;
+    margin-left: 24px;
+  }
+}

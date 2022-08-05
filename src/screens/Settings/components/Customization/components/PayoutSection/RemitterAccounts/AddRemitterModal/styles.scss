@@ -1,0 +1,33 @@
+.remitter-add-modal-container {
+  .content {
+    margin-bottom: 1.5rem;
+  }
+  .form-group {
+    margin-bottom: 0px;
+  }
+
+  .modal-action-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .ant-radio-inner {
+    top: 3px !important;
+    border: 2px solid #a0a4a8;
+  }
+
+  .ant-radio-inner::after {
+    top: 3px !important;
+    left: 3px !important;
+  }
+
+  .radio-label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #25282b;
+  }
+}

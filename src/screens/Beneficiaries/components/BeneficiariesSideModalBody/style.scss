@@ -1,0 +1,35 @@
+.ant-collapse {
+  table {
+    tr {
+      td {
+        padding-left: 0 !important;
+      }
+    }
+  }
+}
+
+.ant-collapse {
+  border: none !important;
+}
+
+.ant-collapse-content {
+  border-top: none !important;
+}
+.ant-collapse {
+  & > .ant-collapse-item {
+    border-bottom: none !important;
+  }
+}
+
+.beneCode {
+  font-size: 14px;
+}
+
+.sidemodal-container {
+  .status {
+    margin: unset;
+  }
+  .bankErrorMessage {
+    max-width: 12.5rem;
+  }
+}

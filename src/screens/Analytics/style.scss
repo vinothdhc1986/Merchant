@@ -1,0 +1,26 @@
+.analytics-container {
+  .sub-header {
+    span {
+      margin-top: 0.625rem;
+    }
+  }
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 0.013rem;
+    color: #52575c;
+    margin-bottom: 0;
+  }
+
+  .white-box-content {
+    min-height: 60vh;
+    background: #fff;
+
+    iframe {
+      min-height: 40rem;
+    }
+  }
+}

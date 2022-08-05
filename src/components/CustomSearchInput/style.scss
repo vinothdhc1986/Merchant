@@ -1,0 +1,14 @@
+.auto-suggest-search-container {
+  width: 100%;
+
+  .ant-select-selection-search-input {
+    border-radius: 8px;
+    height: 42px;
+    background: #ffffff;
+    border: 1px solid #dbdde0;
+  }
+
+  .ant-select-selection-placeholder {
+    line-height: 42px !important;
+  }
+}

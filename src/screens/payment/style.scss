@@ -1,0 +1,36 @@
+.payment-container {
+  .filtering-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+
+    button {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1px;
+      color: #2e7be6;
+      margin-left: 18px;
+      background: none;
+
+      img {
+        margin-right: 6px;
+      }
+    }
+  }
+
+  .filter-by {
+    flex: 2;
+  }
+
+  .arrow-bt {
+    margin-left: 0 !important;
+    padding-right: 0;
+
+    img {
+      margin-right: 0 !important;
+    }
+  }
+}

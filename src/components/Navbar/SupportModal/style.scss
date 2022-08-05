@@ -1,0 +1,76 @@
+.support-model {
+  .modal-content {
+    padding: 0px;
+    width: 560px;
+    .support-modal-body {
+      padding: 30px;
+      .description {
+        font-size: 16px;
+        line-height: 25px;
+        color: #535669;
+        b {
+          color: black;
+        }
+      }
+      .action-buttons {
+        gap: 50px;
+        display: flex;
+
+        .merchant-id {
+          margin-top: 29px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 14px;
+          letter-spacing: 0.2em;
+          text-transform: uppercase;
+          color: #282c44;
+          opacity: 0.4;
+        }
+
+        .merchant-value {
+          margin-top: 7px;
+          font-size: 24px;
+          line-height: 29px;
+          color: #282c44;
+        }
+        .merchant-value-container {
+          display: flex;
+          img {
+            margin-top: 12px;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-left: 12px;
+            cursor: pointer;
+          }
+          img.active {
+            filter: hue-rotate(-100deg);
+          }
+        }
+      }
+    }
+    .modal-header {
+      height: 89px;
+      background: #f7f8fb;
+      border-radius: 8px;
+      display: flex;
+      justify-content: space-between;
+      img {
+        width: 32px;
+        height: 32px;
+        margin-top: 16px;
+        margin-right: 16px;
+        opacity: 0.7;
+        cursor: 'pointer';
+      }
+      .support-modal-heading {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28.8px;
+        padding: 30px;
+        color: #282c44;
+      }
+    }
+  }
+}

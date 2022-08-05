@@ -1,0 +1,16 @@
+// TODO: Temporary design, needs to be finalized with product team
+
+.payout-bank-select-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    width: 226px;
+    justify-content: space-between;
+    label {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .filter-dropdown {
+        margin: unset
+    }
+}

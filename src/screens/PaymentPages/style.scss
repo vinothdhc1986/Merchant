@@ -1,0 +1,59 @@
+.payment-pages-container {
+  margin-top: 2.188rem;
+  .sub-header {
+    .heading-title {
+      h2 {
+        margin-top: 0px;
+      }
+    }
+    span {
+      display: block;
+    }
+  }
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #52575c;
+    margin-bottom: 0px;
+  }
+
+  .paymnet-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .paymnet-steps p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #52575c;
+    margin: 0;
+  }
+
+  .intro-button {
+    margin-top: 40px;
+  }
+
+  .intro-button button img {
+    vertical-align: middle;
+  }
+
+  .intro-button span {
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+    color: #52575c;
+    clear: both;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+}

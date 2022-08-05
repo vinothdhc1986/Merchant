@@ -1,0 +1,31 @@
+.heading-title h3 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #000000;
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+
+.tabContentSection {
+  margin-bottom: 20px;
+}
+
+.result-count {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #52575c;
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.result-count a img {
+  vertical-align: middle;
+}

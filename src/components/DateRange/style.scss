@@ -1,0 +1,156 @@
+// .date-range-container {
+.range-clander {
+  position: relative;
+  .rdrInputRanges {
+    :nth-child(2) {
+      display: none;
+    }
+  }
+  .rdrInputRange {
+    :nth-child(2) {
+      display: block;
+    }
+  }
+}
+
+// override styles when dateRange === null
+.dateRangeWrapperClass {
+  .rdrDayDisabled {
+    span.rdrStartEdge.rdrEndEdge {
+      color: unset;
+      background: unset;
+    }
+    .rdrDayNumber {
+      span {
+        color: #aeb9bf !important;
+      }
+    }
+  }
+}
+
+.filtering-row .range-clander button {
+  font-weight: 400;
+  font-size: inherit;
+  line-height: inherit;
+  display: inherit;
+  align-items: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin-left: 0;
+  background: inherit;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #52575c;
+}
+
+.rdrDayNumber span {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #52575c;
+}
+
+.filtering-row .range-clander button img {
+  margin-right: 0;
+}
+
+.rdrMonth {
+  width: 23.667em;
+}
+
+.overlay {
+  background: #25282b;
+  opacity: 0.4;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.modal {
+  overflow-x: auto;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1001;
+}
+
+.date-range-container .modal-dialog {
+  width: auto !important;
+  margin: 30px auto !important;
+  position: relative !important;
+}
+
+.modal-dialog-centered {
+  min-height: calc(100% - 60px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: none;
+  box-shadow: 0px 12px 40px rgba(37, 40, 43, 0.32);
+  border-radius: 8px;
+  outline: 0;
+  padding: 24px;
+}
+
+.modal-content h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.date-range-container .action-button {
+  display: flex;
+  margin-left: 12px;
+  .secondry-button {
+    justify-content: center;
+  }
+}
+
+.filtering-row .modal-content {
+  padding: 0;
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+
+.rdrStaticRangeLabel {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .modal-content {
+    padding: 15px;
+  }
+}
+
+.daterange-field {
+  width: 292px;
+  .arrow-bt {
+    margin-left: 0 !important;
+    padding-right: 0;
+    background: none;
+    img {
+      margin-right: 0 !important;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.custom-switch {
+  width: 226px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  margin-bottom: 12px;
+  .ant-switch-small.ant-switch-checked .ant-switch-handle {
+    left: calc(100% - 12px - 2px - 4px);
+  }
+  .ant-switch-small .ant-switch-handle {
+    width: 16px;
+    height: 16px;
+  }
+  .ant-switch-checked {
+    background-color: #2e7be6;
+  }
+  .ant-switch-small {
+    min-width: 36px;
+    height: 20px;
+    line-height: 16px;
+  }
+}

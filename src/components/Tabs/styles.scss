@@ -1,0 +1,32 @@
+@import '../../scss/vars.scss';
+
+.planTabsNav {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li {
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      letter-spacing: 0.1px;
+      color: #52575c;
+      padding: 15px 24px;
+      position: relative;
+    }
+    li.active {
+      color: $primary-tab-color;
+      box-shadow: inset 0px -2px 0px $primary-tab-color;
+    }
+  }
+}

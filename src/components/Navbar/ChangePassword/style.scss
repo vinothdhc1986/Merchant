@@ -1,0 +1,30 @@
+.change-password-model {
+  .modal-dialog {
+    width: 509px;
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.2px;
+      color: #52575c;
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
+    .modal-body {
+      padding-top: 30px;
+    }
+  }
+
+  .password-field {
+    padding-left: 12px;
+  }
+}
+
+@media (max-width: 568px) {
+  .change-password-model {
+    .modal-dialog {
+      width: 95%;
+    }
+  }
+}

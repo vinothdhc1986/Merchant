@@ -1,0 +1,38 @@
+.plan-search-field {
+  width: 272px;
+  position: relative;
+  margin-right: 24px;
+
+  input[type='text'] {
+    width: 100%;
+    font-weight: 400;
+    color: #757575;
+    padding: 10px 15px;
+    padding-right: 40px;
+    background: #ffffff;
+    border: 1px solid #dbdde0;
+    border-radius: 8px;
+    height: 40px;
+  }
+
+  button {
+    border: 0;
+    background: none;
+    padding: 2px 5px;
+    position: absolute;
+    color: #757575;
+    cursor: pointer;
+    z-index: 9;
+    top: 8px;
+    right: 7px;
+
+    img {
+      width: 20px;
+      margin-right: 0;
+    }
+  }
+
+  .form-group {
+    margin-bottom: unset;
+  }
+}

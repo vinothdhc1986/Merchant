@@ -1,0 +1,26 @@
+.customNoDataFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px auto;
+  img {
+    max-width: 441px;
+  }
+  p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #282c44;
+  }
+  span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #282c44;
+    opacity: 0.5;
+  }
+}

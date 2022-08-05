@@ -1,0 +1,41 @@
+.imei-rquest-failed {
+  height: calc(100vh - 108px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imei-rquest-failed h4 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.imei-rquest-failed p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.imei-rquest-failed .secondry-button {
+  background: none;
+  padding: 0 20px;
+}
+
+.imei-rquest-failed .secondry-button img {
+  vertical-align: middle;
+  margin-left: 5px;
+}

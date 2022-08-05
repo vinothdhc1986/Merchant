@@ -1,0 +1,74 @@
+.bulk-upload-section {
+  .bulk-upload {
+    width: 344px;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 70px;
+    position: relative;
+  }
+
+  .file-upload-error {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #fb4e4e;
+    margin: 16px 0;
+    padding: 0 34px;
+    position: absolute;
+  }
+
+  .file-upload-success {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #2ac769;
+    margin: 16px 0;
+    padding: 0 34px;
+    position: absolute;
+  }
+
+  .curser-pointer {
+    cursor: pointer;
+  }
+
+  .progress-bar-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+    span.filename {
+      position: absolute;
+      bottom: 28px;
+      left: 49px;
+      max-width: 180px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    span.progress-percent {
+      position: absolute;
+      right: 0;
+      bottom: 30px;
+    }
+  }
+
+  .ant-upload.ant-upload-btn {
+    min-height: 120px;
+  }
+
+  .doc-thumbnail {
+    margin-right: 10px;
+  }
+
+  .upload-cross-btn {
+    margin-left: 5px;
+  }
+}

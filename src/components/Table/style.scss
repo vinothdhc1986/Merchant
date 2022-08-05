@@ -1,0 +1,59 @@
+.table-section {
+  border: 1px solid #dbdde0;
+  border-radius: 4px;
+  // overflow: hidden !important;
+  overflow-x: scroll;
+}
+
+.table-section table {
+  white-space: nowrap;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-section table tr {
+  border-bottom: 1px solid #dbdde0;
+  background: #fff;
+}
+
+.table-section table tr.selected,
+.table-section table tr:hover {
+  background: #f5f8fe;
+}
+
+.table-section table tr:last-child {
+  border: none;
+}
+
+.table-section table tr th {
+  padding: 14px 16px;
+  background: #f9f9fa;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  color: #52575c;
+}
+
+.table-section table tr td {
+  padding: 23px 16px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  color: #25282b;
+}
+
+.table-section table tr td label {
+  color: #046eef;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.table-section table tr td:first-child,
+.table-section table tr th:first-child {
+  padding-right: 0;
+}

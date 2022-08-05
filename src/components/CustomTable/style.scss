@@ -1,0 +1,48 @@
+.ant-table-column-sorters {
+  justify-content: center;
+//   width: 175px;
+}
+
+.ant-table-thead {
+  tr {
+    th {
+      font-weight: 600;
+      color: #282c44;
+      font-size: 12px;
+      line-height: 14px;
+      // letter-spacing: 0.2em;
+      color: #25282b;
+      padding-right: 15px;
+      padding-bottom: 24px;
+      vertical-align: top;
+      text-transform: uppercase;
+    }
+    td {
+      label {
+        position: absolute;
+        width: 96px;
+        height: 19px;
+        left: 377px;
+        top: 353px;
+        font-family: Indivisible;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+      }
+      position: absolute;
+      width: 89px;
+      height: 18px;
+      left: 557px;
+      top: 363px;
+      font-family: Indivisible;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 18px;
+      /* identical to box height */
+      color: #282c44;
+      opacity: 0.8;
+    }
+  }
+}

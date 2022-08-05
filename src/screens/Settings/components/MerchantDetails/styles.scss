@@ -1,0 +1,76 @@
+.merchant-details-section {
+  .form-container {
+    background: #ffffff;
+    padding: 1.5rem;
+
+    & > h2 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: #282c44;
+      margin-bottom: 1.37rem;
+    }
+
+    .custom-modal-row {
+      padding: unset;
+      margin-bottom: 1.875rem;
+
+      .custom-label {
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.2rem;
+        color: #282c44;
+        min-width: 25%;
+      }
+
+      .custom-value {
+        width: 300px;
+        .form-group {
+          margin-bottom: unset;
+
+          .react-tel-input {
+            & > input,
+            .flag-dropdown {
+              border: 1px solid #a0a4a8 !important;
+            }
+          }
+        }
+
+        .filter-dropdown {
+          margin: unset;
+          width: 300px;
+
+          .ant-select-selector {
+            height: 48px !important;
+            border: 1px solid #a0a4a8 !important;
+          }
+        }
+
+        & textarea {
+          min-height: 90px;
+        }
+      }
+    }
+  }
+
+  .btns-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+    button {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.2px;
+      padding: 10px 16px;
+      width: 170px;
+
+      &:first-child {
+        margin-right: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,640 @@
+.overview-container {
+  margin-bottom: 30px;
+  .taday-transtion {
+    width: 100%;
+    overflow: auto;
+
+    .transtion-block {
+      display: flex;
+      justify-content: space-between;
+      border: none;
+      border-radius: 0;
+
+      .inner-transtion-block {
+        width: 48%;
+        position: relative;
+        margin-right: 0;
+        background: #ffffff;
+        box-shadow: 0px 6px 18px rgb(0 0 0 / 6%);
+        border-radius: 4px;
+        padding: 20px;
+        margin-right: 16px;
+        display: inline-block;
+
+        .creditCard-icon {
+          background: rgb(52 203 179 / 10%);
+          border-radius: 0 0px 0 8px;
+          width: 60px;
+          height: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+
+        h6 {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          color: #282c44;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+        h2 {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 19px;
+          color: #282c44;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+        h3 {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 19px;
+          color: #282c44;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+
+        .sub-rext {
+          font-size: 13px;
+          line-height: 16px;
+          color: #282c44;
+          font-family: 'Indivisible Medium';
+          display: block;
+          margin-bottom: 20px;
+          opacity: 0.3;
+          font-weight: 600;
+          margin-top: 5px;
+        }
+        .settlementcard {
+          display: flex;
+          margin-bottom: 20px;
+          background: #ffffff;
+          box-shadow: 0px 6px 18px rgb(0 0 0 / 6%);
+          border-radius: 4px;
+          padding: 20px;
+          margin-right: 16px;
+        }
+        .settlementcol {
+          width: 90%;
+        }
+        .rows{
+          width: 90%;
+    display: flex;
+    justify-content: space-between;
+    .innertotalPrice {
+      font-size: 32px;
+      line-height: 38px;
+      color: #282c44;
+      font-family: 'Indivisible SemiBold';
+      margin-bottom: 16px;
+
+      em {
+        font-style: normal;
+        color: #9395a1;
+      }
+    }   
+        }
+
+        .totalPrice {
+          font-size: 32px;
+          line-height: 38px;
+          color: #282c44;
+          font-family: 'Indivisible SemiBold';
+          margin-bottom: 16px;
+
+          em {
+            font-style: normal;
+            color: #9395a1;
+          }
+        }
+
+        .graphRate {
+          font-size: 14px;
+          line-height: 17px;
+          font-family: 'Indivisible Medium';
+          color: rgb(40 44 68 / 50%);
+
+          img {
+            margin-right: 5px;
+          }
+
+          span {
+            color: #01d684;
+          }
+        }
+
+        .foot {
+          display: flex;
+          justify-content: space-between;
+          padding: 20px 0;
+          border-top: #f2f3f6 solid 1px;
+          margin-top: 20px;
+          padding-bottom: 8px;
+
+          .Transactions {
+            font-size: 18px;
+            line-height: 22px;
+            color: #282c44;
+            font-family: 'Indivisible SemiBold';
+          }
+
+          .Success {
+            font-size: 18px;
+            line-height: 22px;
+            color: #01d684;
+            font-family: 'Indivisible SemiBold';
+          }
+
+          h4 {
+            margin: 0;
+            font-size: 11px;
+            line-height: 13px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: #282c44;
+            opacity: 0.4;
+            font-family: 'Indivisible SemiBold';
+            margin-bottom: 7px;
+          }
+        }
+
+        .graph-block {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            li {
+              font-style: normal;
+              font-weight: normal;
+              font-size: 20px;
+              line-height: 26px;
+              letter-spacing: 0.2px;
+              color: #52575c;
+              margin-top: 20px;
+
+              em {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 11px;
+                line-height: 14px;
+                letter-spacing: 0.2px;
+                color: #2ac769;
+              }
+
+              em.failure {
+                color: #fb4e4e;
+              }
+
+              label {
+                font-weight: normal;
+                font-size: 11px;
+                line-height: 14px;
+                letter-spacing: 0.8px;
+                color: #a0a4a8;
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .reportSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .reportBox {
+      background: #ffffff;
+      box-shadow: 0px 8px 24px rgb(0 0 0 / 4%);
+      border-radius: 8px;
+      width: 48%;
+      margin-right: 30px;
+
+      .topDropdown {
+        background: rgb(247 248 251 / 50%);
+        padding: 12px;
+        display: flex;
+        justify-content: space-between;
+        .dayDrop {
+          background: #ffffff;
+          border: 1px solid #ebebed;
+          box-sizing: border-box;
+          border-radius: 4px;
+          padding: 8px 12px;
+          margin-right: 20px;
+        }
+
+        .overview-date-filter {
+          margin-bottom: unset;
+
+          .daterange-field.form-control {
+            font-family: 'Indivisible Regular';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 14px;
+            color: #282c44;
+            opacity: 0.7;
+          }
+        }
+
+        .AllpaymentDrop {
+          .gateway-filter-wrapper {
+            margin-bottom: unset;
+            min-width: 176px;
+
+            .ant-select-selection-item {
+              font-family: 'Indivisible Regular';
+              font-style: normal;
+              font-weight: normal;
+              font-size: 12px;
+              line-height: 14px;
+              color: #282c44;
+              opacity: 0.7;
+            }
+          }
+
+          .filter-dropdown.gateway-filter-wrapper {
+            width: unset;
+            margin: unset;
+            background: #fff;
+          }
+        }
+      }
+
+      .graphBox {
+        padding: 10px 20px;
+
+        .transtionDrop {
+          display: flex;
+          margin-bottom: 15px;
+
+          .filter-dropdown.transaction-filter-wrapper {
+            width: unset;
+            margin: unset;
+            background: #fff;
+          }
+
+          .transaction-filter-wrapper {
+            margin-bottom: unset;
+
+            .ant-select-selection-item {
+              font-family: 'Indivisible Regular';
+              font-style: normal;
+              font-weight: normal;
+              font-size: 14px;
+              line-height: 17px;
+              color: #282c44;
+            }
+
+            .ant-select-selector {
+              border: none !important;
+              padding-right: 10px !important;
+              color: #282c44;
+              font-weight: 500;
+              padding-right: 5px;
+            }
+          }
+
+          .filter-dropdown.volume-filter-wrapper {
+            width: unset;
+            margin: unset;
+            background: #fff;
+          }
+
+          .volume-filter-wrapper {
+            margin-bottom: unset;
+
+            .ant-select-selection-item {
+              font-family: 'Indivisible Regular';
+              font-style: normal;
+              font-weight: normal;
+              font-size: 14px;
+              line-height: 17px;
+              color: #282c44;
+            }
+
+            .ant-select-selector {
+              border: none !important;
+              padding-right: 10px !important;
+              color: #282c44;
+              font-weight: 500;
+            }
+          }
+
+          .dropdownTrans {
+            font-size: 14px;
+            line-height: 17px;
+            color: #282c44;
+            font-family: 'Indivisible Medium';
+          }
+
+          .buttonAction {
+            display: flex;
+            align-items: center;
+            min-width: 114px;
+            margin: 0 auto;
+
+            button {
+              font-size: 14px;
+              line-height: 17px;
+              color: #8b90a4;
+              background: none;
+              padding: 5px 10px;
+              background: #f7f8fb;
+              font-family: 'Indivisible Regular';
+              font-style: normal;
+              font-weight: normal;
+            }
+
+            button.active {
+              background: #ffffff;
+              border: 1px solid #eaebee;
+              box-sizing: border-box;
+              box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+              border-radius: 4px;
+              font-size: 14px;
+              line-height: 17px;
+              color: #2e7be6;
+            }
+          }
+        }
+
+        .transionDetails {
+          ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            font-size: 13px;
+            line-height: 16px;
+            color: #282c44;
+            font-weight: normal;
+            font-family: 'Indivisible Regular';
+            opacity: 0.7;
+
+            li {
+              img {
+                margin-right: 5px;
+                vertical-align: middle;
+              }
+
+              a {
+                img {
+                  margin-left: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .arrow-bt {
+        margin-left: 0 !important;
+        padding-right: 0;
+        img {
+          margin-right: 0 !important;
+        }
+      }
+
+      .filter-dropdown {
+        width: 190px;
+        margin-right: 10px;
+        margin-bottom: 28px;
+        margin-left: 15px;
+        background: #fff;
+      }
+    }
+
+    .plateFormBox {
+      background: #ffffff;
+      box-shadow: 0px 8px 24px rgb(0 0 0 / 4%);
+      border-radius: 8px;
+      line-height: 20px;
+      width: 25%;
+
+      .graphSection {
+        padding: 20px;
+
+        .recharts-wrapper {
+          margin: 0 auto;
+          margin-bottom: 40px;
+        }
+
+        h3 {
+          margin-top: 0;
+          margin-bottom: 50px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+          font-family: 'Indivisible Regular';
+          color: #282c44;
+        }
+      }
+
+      .palteformDetails {
+        background: rgb(247 248 251 / 50%);
+
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          display: flex;
+          justify-content: space-between;
+          font-family: 'Indivisible Regular';
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 14px;
+          color: #282c44;
+
+          li:first-child {
+            text-align: left;
+            padding-left: 40px;
+            padding-right: 20px;
+
+            .border {
+              background: #e270ff;
+              right: inherit;
+              left: 20px;
+            }
+          }
+
+          li {
+            padding: 20px;
+            width: 50%;
+            border-right: #f2f3f6 solid 1px;
+            box-shadow: 1px 0 0 #fff;
+            text-align: right;
+            position: relative;
+            padding-right: 40px;
+
+            h6 {
+              margin: 0;
+              font-size: 12px;
+              line-height: 14px;
+            }
+
+            h3 {
+              margin: 0;
+              font-size: 16px;
+              line-height: 19px;
+              margin-top: 3px;
+              margin-bottom: 1px;
+              font-weight: 600;
+              color: #282c44;
+              font-style: normal;
+            }
+
+            label {
+              font-size: 12px;
+              line-height: 14px;
+              color: rgb(40 44 68 / 50%);
+            }
+
+            .border {
+              background: #7b87f0;
+              width: 2px;
+              height: 52px;
+              position: absolute;
+              right: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    .paymentMethod {
+      padding: 20px;
+      margin-left: 30px;
+      width: 25%;
+      margin-right: 16px;
+
+      h3 {
+        font-family: 'Indivisible Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #282c44;
+        margin-top: 0;
+      }
+
+      ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-top: 30px;
+
+        li {
+          display: flex;
+          align-items: flex-start;
+          margin-bottom: 20px;
+
+          .icon {
+            margin-right: 10px;
+          }
+
+          .value {
+            font-size: 14px;
+            line-height: 17px;
+            text-align: right;
+            color: #282c44;
+            font-family: 'Indivisible Medium';
+            margin-left: 10px;
+          }
+
+          h5 {
+            margin: 0;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #282c44;
+          }
+
+          .range-slider {
+            margin: 0;
+            width: 110px;
+            background: #f5f6f9;
+            border-radius: 4px;
+            display: block;
+            height: 4px;
+            margin-top: 5px;
+            position: relative;
+            overflow: hidden;
+
+            span {
+              position: absolute;
+              left: 0;
+              height: 4px;
+            }
+          }
+        }
+
+        li.creditCard .range-slider span {
+          background: #ffa600;
+        }
+
+        li.payByPoints .range-slider span {
+          background: #d261c7;
+        }
+
+        li.emi .range-slider span {
+          background: #d12600;
+        }
+
+        li.net-banking .range-slider span {
+          background: #9e6033;
+        }
+
+        li.buy-now-pay-later .range-slider span {
+          background: #7bae6e;
+        }
+
+        li.upi .range-slider span {
+          background: #174cd6;
+        }
+
+        li.wallet .range-slider span {
+          background: #6149cd;
+        }
+
+        li.others .range-slider span {
+          background: #40bcf1;
+        }
+      }
+    }
+  }
+
+  // recharts css override
+  .recharts-layer.recharts-brush-traveller {
+    display: none;
+  }
+
+  .recharts-text {
+    font-family: 'Indivisible Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #282c44;
+  }
+}

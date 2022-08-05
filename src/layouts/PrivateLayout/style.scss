@@ -1,0 +1,54 @@
+.wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+#content {
+  width: 100%;
+  padding: 15px 0px;
+  min-height: 100vh;
+  transition: all 0.3s;
+  padding-top: 90px;
+  padding-bottom: 0;
+  background: #f9f9f9;
+  padding-top: 0px;
+
+  .content-pane {
+    overflow: auto;
+    padding: 0px 32px;
+    max-width: calc(100vw - 280px);
+    margin-left: 273px;
+    margin-top: 80px;
+  }
+  .content-pane-collapsed {
+    overflow: auto;
+    padding: 0px 32px;
+    max-width: calc(100vw - 85px);
+    margin-left: 80px;
+    margin-top: 80px;
+  }
+}
+
+.is-collapsed {
+  #content {
+    // padding-left: 95px;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+}
+
+#content {
+  // padding-left: 287px;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.about-payment-strp {
+  display: flex;
+  border-radius: 6px;
+  background: #fff;
+  overflow: hidden;
+  margin-top: 20px;
+}

@@ -1,0 +1,55 @@
+.download-model {
+  position: fixed;
+  width: 285px;
+  height: auto;
+  background: #ffffff;
+  border: 1px solid #dbdde0;
+  border-radius: 8px;
+  right: 15px;
+  top: 110px;
+  z-index: 9;
+  padding: 13px 16px;
+
+  h5 {
+    font-weight: 5 00;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #2e7be6;
+    margin-top: 0;
+    margin-bottom: 9px;
+  }
+
+  p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+    color: #52575c;
+    margin-bottom: 8px;
+    margin-top: 0;
+  }
+
+  .cancel-button {
+    background: #ffffff;
+    border: 1px solid #2e7be6;
+    border-radius: 8px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #2e7be6;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 15px 24px;
+  }
+
+  .close-model {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: none;
+    padding: 0;
+    right: 16px;
+    top: 12px;
+  }
+}
